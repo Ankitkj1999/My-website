@@ -12,7 +12,8 @@
 #content-desktop {display: none;}
 
 }
-
+#more {display: none;}
+#more1 {display: none;}
 
 .title::before
 {
@@ -431,7 +432,8 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  border-radius: 0px 30px;}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -534,6 +536,7 @@ pre {
 .col-xl-auto {
   position: relative;
   width: 100%;
+
   padding-right: 15px;
   padding-left: 15px; }
 
@@ -6771,7 +6774,7 @@ button.bg-dark:focus {
   padding-left: 1rem !important; }
 
 .p-4 {
-  padding: 1.5rem !important; }
+  padding: 1.5rem !important; border-radius: 30px 0px;}
 
 .pt-4,
 .py-4 {
@@ -6790,7 +6793,8 @@ button.bg-dark:focus {
   padding-left: 1.5rem !important; }
 
 .p-5 {
-  padding: 3rem !important; }
+  padding: 3rem !important; 
+border-radius: 30px 0px;}
 
 .pt-5,
 .py-5 {
@@ -8616,7 +8620,7 @@ h1, h2, h3, h4, h5,
     box-shadow: 0 0 0 0 rgba(62, 100, 255, 0); } }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  background: #edf0fa !important; }
 
 .bg-dark {
   background: #191919 !important; }
@@ -9026,7 +9030,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: 0;
+    opacity: .6;
     background: #3e64ff;
     z-index: -1;
     -moz-transition: all 0.3s ease;
@@ -9352,7 +9356,8 @@ textarea.form-control {
   position: relative;
   display: block;
   width: 100%;
-  height: 300px; }
+  height: 300px; 
+  border-radius: 0px 15px;}
 
 .blog-entry {
   position: relative; }
