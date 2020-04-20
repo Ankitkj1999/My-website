@@ -4,6 +4,15 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ #quot
+ {
+  padding: 10px;
+  background-color: rgb(244, 244, 253);
+  border-left: 4px solid rgb(52, 56, 248);
+  font-size: 20px;
+  font-style: italic;
+  
+ }
  #content-desktop {display: block;}
 #content-mobile {display: none;}
 
@@ -88,6 +97,15 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
 body {
+  /*prevents text selection
+  -youbkit-touch-callout: none; /* iOS Safari */
+	-youbkit-user-select: none;   /* Chrome 6.0+, Safari 3.1+, Edge & Opera 15+ */
+	-moz-user-select: none;       /* Firefox */
+	-ms-user-select: none;        /* IE 10+ and Edge */
+	user-select: none;            /* Non-prefixed version, 
+								  currently supported by Chrome and Opera */
+
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
