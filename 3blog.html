@@ -24,7 +24,7 @@
 ... <link rel="preload" href="js/main.js" as="script">
 
 
-<link rel="manifest" href="/manifest.json">
+<link rel="manifest" href="manifest.json">
 
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" as="style">
 <link rel="preload" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
@@ -359,6 +359,8 @@
                 <li> Reimbursement of MOOC certification fee by the university</li>
               </ul></p>
               <br>
+
+              <div id="content-desktop">
               <!--Table-->
               <h3>Detailed Semester/Term Wise Plan</h3>
               <table id="t01">
@@ -619,6 +621,9 @@
                 
                 
               </table>
+              </div>
+              <div id="content-mobile"><h3 class="mb-3">Switch to desktop view to see table!</h3></div>
+
               <p style="color: rgb(147, 148, 148);font-size:12px">*Credit LPU</p>
 
               <br>
@@ -647,8 +652,10 @@
             </div>
             
             <div class="about-author d-flex p-4 bg-light" style="border-radius: 0px 25px;">
+              <div id="content-desktop">
               <div class="bio mr-5">
                 <img src="images/about.webp" alt="Image placeholder" class="img-fluid mb-4">
+              </div>
               </div>
               <div class="desc">
                 <h3>Ankit Kumar</h3>
@@ -851,11 +858,11 @@
                 
               </div>
             </div>
-
+            <div id="content-desktop">
             <div class="sidebar-box ftco-animate">
               <h3 class="heading-sidebar">Paragraph</h3>
               <p>"What should every computer science major know?" I have tried to compile a suitable answer here.</p>
-            </div>
+            </div></div>
           </div>
 
         </div>
