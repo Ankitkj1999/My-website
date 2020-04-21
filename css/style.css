@@ -8236,10 +8236,10 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light {
       background: #000000 !important;
       position: relative;
-      top: 0;
-      padding-top: 0;
+    margin-top: -25px;
       padding-bottom: 0;
       padding-left: 15px;
+      margin-right: -15px;
       padding-right: 15px; } }
   .ftco-navbar-light .container {
     width: 1110px;
@@ -8345,7 +8345,7 @@ h1, h2, h3, h4, h5,
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
     cursor: pointer;
-    padding-right: 0;
+    padding-right: 15px;
     text-transform: uppercase;
     font-size: 16px;
     letter-spacing: .1em; }
@@ -8531,7 +8531,7 @@ h1, h2, h3, h4, h5,
 .slider-text .bread {
   font-weight: 700;
   color: #000000;
-  font-size: 60px; }
+  font-size: 55px; }
 
 .mouse {
   position: absolute;
