@@ -1,0 +1,31 @@
+{
+  "short_name": "Ankit",
+  "name": "Ankit Kumar",
+  "description": "Ankit Kumar CV",
+  "lang": "en-US",
+  "categories": ["books", "education", "business"],
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icon.svg",
+      "sizes": "513x513"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "1743x1743"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#3e64ff",
+  "display": "fullscreen",
+  "scope": "/https://ankitkj1999.github.io/My-website/subdirectory/",
+  "theme_color": "#3e64ff"
+  
+}
