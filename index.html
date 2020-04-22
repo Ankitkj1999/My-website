@@ -2,9 +2,30 @@
 <html lang="en">
   <head>
 	  <!--mobile icons-->
+	  <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+	  <link rel="manifest" href="/manifest.json">
+	  <link rel="manifest" href="manifest.json">
+	  <link rel="manifest" crossorigin="use-credentials" href="manifest.webmanifest">
+	  <link rel="manifest"  href="/manifest.webmanifest">
+	  <link rel="manifest"  href="manifest.webmanifest">
+
 	<link rel='shortcut icon' type='image/x-icon' href="images/icon.png" />
 	<link rel="apple-touch-icon" sizes="180x180" href="images/icon.png" />
 <link rel="icon" type="image/png" href="images/icon.png" sizes="192x192"/>
+
+<meta property="og:image" content="https://i.ibb.co/b39fNjB/ankit-1024.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1CB909XM0F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1CB909XM0F');
+</script>
 
     <title>Ankit Kumar || CV</title>
     <meta charset="utf-8">
@@ -35,8 +56,7 @@
   ... <link rel="preload" href="js/main.js" as="script">
 
 
-  <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
-  <link rel="manifest" crossorigin="use-credentials" href="manifest.webmanifest">
+
 
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" as="style">
   <link rel="preload" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" as="style">
@@ -252,7 +272,7 @@
 			<div id="content-desktop">
 				
 				<div class="col-md-12 heading-section ftco-animate" style="margin-bottom: -100px;" >
-					<h1 class="big" style="color: rgb(238, 237, 237);" >Ankit</h1>
+					<h1 class="big" style="color: rgb(238, 237, 237); margin-top:-15px;" >Ankit</h1>
 				  <h2 class="mb-4" >Ankit Kumar</h2>
 				</div>
 				</div>
@@ -266,7 +286,7 @@
 						
 						<div class="img d-flex align-self-stretch align-items-center">
 				
-		<div class="flip-box"  >
+		<div class="flip-box" style="padding-bottom: 20px;" >
 			<div class="flip-box-inner">
 			  <div class="flip-box-front">
 				<img src="images/about.webp" alt="Paris" style="width:90%;height:auto;max-height:580px;border-radius: 0px 30px;">
@@ -295,8 +315,11 @@
 
     			<div class="col-md-6 col-lg-6 pl-md-5 py-5">
     				<div class="row justify-content-start pb-3">
+						<div id="content-desktop">
 		          <div class="col-md-12 heading-section ftco-animate"  >
-		          	<h1 class="big" style="color: rgb(238, 237, 237);" >About</h1>
+					
+					  <h1 class="big" style="color: rgb(238, 237, 237);" >About</h1>
+					
 		            <h2 class="mb-4" >About Me</h2>
 		            <p>Hey! i am Ankit Kumar, a student of Lovely Professional University. Currently majoring in computer science. </p>
 		            <ul class="about-info mt-4 px-md-0 px-2">
@@ -309,7 +332,27 @@
 						<li class="d-flex"><span>Current city:</span> <span>Jhalandar, Punjab, India</span></li>
 		            	<li class="d-flex"><span>Address:</span> <span>Tilak Nagar, New Delhi, India - 110018</span></li>
 		            </ul>
-		          </div>
+				  </div>
+				</div>
+				  <div id="content-mobile">
+					<div class="col-md-12 heading-section ftco-animate" style="margin-top: 70px;" >
+						
+						  <h1 class="big" style="color: rgb(204, 204, 204);" >About</h1>
+						
+						<h2 class="mb-4" >About Me</h2>
+						<p >Hey! i am Ankit Kumar, a student of Lovely Professional University. Currently majoring in computer science. </p>
+						<ul class="about-info mt-4 px-md-0 px-2">
+							<li class="d-flex"><span>Name:</span> <span>Ankit Kumar</span></li>
+							<li class="d-flex"><span>Date of birth:</span> <span>November 15, 1999</span></li>
+							<li class="d-flex"><span>Education:</span> <span>B.tech Computer Science and Engineering</span></li>
+							<li class="d-flex"><span>College:</span> <span>Lovely Profesional University-School of Computer Science and Engineering</span></li>
+							<li class="d-flex"><span>Email:</span> <span>Ankit.k.j1999@gmail.com</span></li>
+							<li class="d-flex"><span>Phone: </span> <span>+91-9667267972</span></li>
+							<li class="d-flex"><span>Current city:</span> <span>Jhalandar, Punjab, India</span></li>
+							<li class="d-flex"><span>Address:</span> <span>Tilak Nagar, New Delhi, India - 110018</span></li>
+						</ul>
+					  </div>
+				  </div>
 		        </div>
 	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
               <div class="text">
@@ -403,7 +446,7 @@
 		    					<span class="date">2017-2018</span>
 		    					<h2>Intermediate</h2>
 								<a href="http://slsuridavpsjp.ac.in/" target="_blank"	style="text-decoration: none; "><span class="position">S.L. Suri D.A.V. Public School</span></a>
-		    					<p>I completed my intermediate level of studeies in 2018 with <i><b>"Science"</b></i> stream in CBSE board.I passed with an aggregate of <i><b>81%</b></i></p>
+		    					<p>I completed my intermediate level of studies in 2018 with <i><b>"Science"</b></i> stream in CBSE board. I passed with an aggregate of <i><b>81%</b></i></p>
 		    				</div>
 	    				</div>
 	    				<div class="resume-wrap d-flex ftco-animate">
@@ -453,7 +496,7 @@
 					    		<img src="images/exp.svg" style="width: 50px; height:50px;margin-top:2px">
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">June 2020</span>
+		    					<span class="date">June 2019</span>
 		    					<a href="https://internshala.com/student/certificate/23297815/84924DBD-7324-0AD8-563D-52F7CCCDEA24" target="_blank" style="text-decoration: none;"> <h2>Content Writer</h2></a>
 		    					<a href="https://www.alorine.com" target="_blank" style="text-decoration: none;"><span class="position">Alorine</span></a>
 		    					<p>Alorine is an open blogging platform where you can present and promote your knowledge.There i worked as a <i><b>"Content Writer"</b></i>, writing two quality, fact-filled articles every week. Using the right keywords graphics and links in the content.</p>
@@ -466,7 +509,7 @@
 					    		<img src="images/exp.svg" style="width: 50px; height:50px;margin-top:2px">
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">June 2020</span>
+		    					<span class="date">June 2019</span>
 		    					<h2>Business Development | Sales</h2>
 								<a href="https://fyraway.com/index" target="_blank" style="text-decoration: none;">	<span class="position">Fyraway</span></a>
 		    					<p>Fyraway was started as an education initiative to bring emerging trends and global best practices in school education to Indian students. At Fyraway i had applied for content writing position, but i was offered a <i><b>"Marketing"</b></i>role instead. My responsibility here was to promote their courses through word of mouth.</p>
@@ -478,7 +521,7 @@
 					    		<img src="images/exp.svg" style="width: 50px; height:50px;margin-top:2px">
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">May 2020</span>
+		    					<span class="date">May 2019</span>
 		    					<h2>Content Research | Content Publication</h2>
 								<a href="https://www.commondove.com/" target="_blank" style="text-decoration: none;">	<span class="position">Commondove</span></a>
 		    					<p>Commondove is a non-profit, non-government trust organization. Their mission is to connect youth with various social causes which require their support and for that purpose they were creating  Commondove Android app. Here i was allocated some NGO pages, through which i <i><b>"Develloped content"</b></i> for the Commomdove app, to help people understand better. </p>
@@ -492,7 +535,7 @@
 					    		<img src="images/exp.svg" style="width: 50px; height:50px;margin-top:2px">
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">May 2020</span>
+		    					<span class="date">May 2019</span>
 		    					<h2>Content Writer & Optimizer</h2>
 								<a href="https://www.wrytin.com/" target="_blank" style="text-decoration: none;">	<span class="position">Wrytin</span></a>
 		    					<p>Wrytin is a free platform for bloggers to - publish blogs, build their following, get discovered by readers, and engage with them. In its early days i was offered a role of <i><b>"Content writer"</b></i> & <i><b>"Optimiser"</b></i> through S.E.O. tricks to help the website rank better and quicker.</p>
@@ -520,7 +563,7 @@
 					    		<img src="images/exp.svg" style="width: 50px; height:50px;margin-top:2px">
 					    	</div>
 					    	<div class="text pl-3">
-		    					<span class="date">July 2020</span>
+		    					<span class="date">July 2019</span>
 		    					<h2>Web-Dev</h2>
 								<a href="https://www.absacademy.net/" target="_blank" style="text-decoration: none;">	<span class="position">ABS Academy</span></a>
 		    					<p>ABS Academy is a Coaching Institute, situated in <i>Tilak Nagar, New Delhi</i>. I created a <i><b>"Website" </b></i>for them to give them an online presence. With some features like events, booking, fee-payment, etc.</p>
@@ -735,6 +778,28 @@
 										  </div>
 									  </div>
 								  </div>
+								  <div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>AWS</h3>
+										<div class="progress">
+											 <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+											  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+											<span></span>
+											  </div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 animate-box">
+									<div class="progress-wrap ftco-animate">
+										<h3>AMP</h3>
+										<div class="progress">
+											 <div class="progress-bar color-3" role="progressbar" aria-valuenow="95"
+											  aria-valuemin="0" aria-valuemax="100" style="width:40%">
+											<span></span>
+											  </div>
+										</div>
+									</div>
+								</div>
 							</div>
 <br>
 							<h3><i># Graphics</i></h3>
