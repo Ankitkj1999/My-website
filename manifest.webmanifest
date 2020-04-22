@@ -1,33 +1,60 @@
 {
-    "short_name": "Ankit",
-    "name": "Ankit Kumar",
-    "description": "Ankit Kumar CV",
-    "lang": "en-US",
-    "categories": ["books", "education", "business"],
-    "icons": [
-      {
-        "src": "images/icon-192.png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "images/icon-512.png",
-        "sizes": "512x512"
-      },
-      {
-        "src": "images/icon.svg",
-        "sizes": "513x513"
-      },
-      {
-        "src": "images/icon.png",
-        "sizes": "1743x1743"
-      }
-    ],
-    "start_url": "/index.html",
-    "background_color": "#3e64ff",
-    "display": "fullscreen",
-    "scope": "/https://ankitkj1999.github.io/My-website/subdirectory/",
-    "theme_color": "#3e64ff"
-    
-  }
+  "short_name": "Ankit",
+  "name": "Ankit Kumar",
+  "description": "Ankit Kumar CV",
+  "lang": "en-US",
+  "categories": ["books", "education", "business"],
+  "icons": [
+    {
+      "src": "images/icon-74.png",
+      "sizes": "74x74"
+    },
+    {
+      "src": "images/icon-96.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icon-128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/icon-144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "images/icon-150.png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "images/icon-180.png",
+      "sizes": "180x180"
+    },
+
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon-384.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "images/icon.svg",
+      "sizes": "513x513"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "1743x1743"
+    }
+  ],
+  "start_url": "/https://ankitkj1999.github.io/My-website/",
+  "background_color": "#3e64ff",
+  "display": "standalone",
+  "scope": "/https://ankitkj1999.github.io/My-website/subdirectory/",
+  "theme_color": "#3e64ff"
   
-  
+}
