@@ -53,7 +53,7 @@
   ],
   "start_url": "https://ankitkj1999.github.io/My-website/index.html",
   "background_color": "#3e64ff",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "theme_color": "#3e64ff"
   
