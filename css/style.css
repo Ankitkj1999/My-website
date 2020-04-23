@@ -8244,10 +8244,12 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
+    padding-left: 10px;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
     color: #000000;
     padding-top: .7rem;
+    padding-left: 19px;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
       color: #000000 !important; }
@@ -8432,7 +8434,7 @@ h1, h2, h3, h4, h5,
   .navbar-brand:after {
     position: absolute;
     top: 50%;
-    left: -12px;
+    left: 6px;
     width: 40px;
     height: 40px;
     content: '';
