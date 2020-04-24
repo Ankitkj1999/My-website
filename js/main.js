@@ -440,3 +440,22 @@ $(function() {
 
 });
 
+const Certification = document.querySelector('.Certifications');
+
+const renderCertification = ( data, id) => {
+	const html = `
+	<div class="resume-wrap d-flex ftco-animate" data-id="${id }">
+	<div class="icon d-flex align-items-center justify-content-center">
+		<img src="images/certificate.svg" style="width: 50px; height:50px;">
+	</div>
+	<div class="text pl-3">
+		<span class="date">${data.Date}</span>
+		<a href="" style="text-decoration: none;" target="_blank"><h2>${data.Title}</h2></a>
+		<span class="position">${data.Platform} </span>
+		<p>${data.Details}</p>
+	</div>
+	 </div>
+	`; 
+};
+
+Certification.innerHTML += html; 

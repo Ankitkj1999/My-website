@@ -20,20 +20,12 @@
 	<meta name="apple-mobile-web-app-status-bar" content="#3e64ff">
 <link rel="icon" type="image/png" href="images/icon.png" />
 
-<meta property="og:image" content="https://i.ibb.co/b39fNjB/ankit-1024.jpg">
+<meta property="og:image" content="https://i.ibb.co/b39fNjB/ankit-1024.webp">
 <meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1CB909XM0F"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1CB909XM0F');
-</script>
-
+<meta name="theme-color" content="#3e64ff">
+ 
     <title>Ankit Kumar || CV</title>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -153,67 +145,6 @@
   }
   
 
-
-
-/* text on computer
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-@keyframes showTopText {
-  40%, 60% { transform: translate3d(0, 50%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-@keyframes showBottomText {
-  0% { transform: translate3d(0, -100%, 0); }
-  100% { transform: translate3d(0, 0, 0); }
-}
-.animated-title {
-  color: rgb(75, 75, 75);
-  font-family: Roboto, Arial, sans-serif;
-  height: 50vmin;
-  left: 20%;
-  position: absolute;
-  top: 40%;
-  transform: translate(-40%, -40%);
-  width: 60vmin;
-}
-.animated-title > div {
-  height: 50%;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-}
-.animated-title > div div {
-  font-size: 8vmin;
-  padding:  0;
-  position: absolute;
-}
-.animated-title > div div span {
-  display: block;
-}
-.animated-title > div.text-top {
-  border-bottom: 1vmin solid rgb(158, 158, 158);
-  
-  top: 0;
-}
-.animated-title > div.text-top div {
-  animation: showTopText 1s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-  bottom: 0;
-  transform: translate(0, 100%);
-}
-.animated-title > div.text-top div span:first-child {
-  color: #000000;
-}
-.animated-title > div.text-bottom {
-  bottom: 0;
-}
-.animated-title > div.text-bottom div {
-  animation: showBottomText 0.5s;
-  animation-delay: 1.75s;
-  animation-fill-mode: forwards;
-  top: 0;
-  transform: translate(0, -100%);
-}*/
 
 </style>
   </head>
@@ -1459,7 +1390,32 @@
 	  }
 	}
 	</script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBzpNhuHk7SX28rxqIEfox6q6V_7bpeUGw",
+    authDomain: "ankit-kumar-cv.firebaseapp.com",
+    databaseURL: "https://ankit-kumar-cv.firebaseio.com",
+    projectId: "ankit-kumar-cv",
+    storageBucket: "ankit-kumar-cv.appspot.com",
+    messagingSenderId: "954536734558",
+    appId: "1:954536734558:web:d189d9b20a15d9238a29cf",
+    measurementId: "G-JXX76N9PE7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  const db = firebase.firestore();
+</script>
+<script> src="/js/db.js"</script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -1474,10 +1430,6 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-  <script type="module">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-
-	const el = document.createElement('pwa-update');
-	document.body.appendChild(el);</script>
-    
+  <script src="js/app.js"></script>
   </body>
 </html>
